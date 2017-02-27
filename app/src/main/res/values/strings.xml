@@ -16,7 +16,7 @@
 -->
 <resources>
 
-    <string name="app_name">OTA Updater</string>
+    <string name="app_name">SuperMan Updater</string>
     <string name="app_license">License</string>
     <string name="app_contrib">Contributors</string>
     <string name="app_downloads">Downloads</string>
@@ -106,7 +106,7 @@
     <string name="toast_downloading">Your download is still running, check notifications for progress…</string>
 
     <string name="about_ota_title">OTA Updater</string>
-    <string name="about_ota_summary">Copyright © 2014 - OTA Update Center\nFully open-source\nTap to visit our website</string>
+    <string name="about_ota_summary">Copyright © 2017 - OTA Update Center\nFully open-source\nTap to visit our website</string>
     <string name="about_version_title">Version</string>
     <string name="about_version_unknown">Unknown Version (error in package manager)</string>
     <string name="about_ota_feature_missing_title">Missing OTA Feature File!!</string>
