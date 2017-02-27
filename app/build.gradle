@@ -1,12 +1,19 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion '21.1.1'
 
+    useLibrary 'org.apache.http.legacy'
+
+    compileSdkVersion 24
+    buildToolsVersion "24.0.3"
     defaultConfig {
-        minSdkVersion 14
-        targetSdkVersion 21
+        applicationId "com.otaupdater"
+        minSdkVersion 21
+        //noinspection OldTargetApi
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+        project.archivesBaseName = "OTA-Updater"
     }
 
     signingConfigs {
