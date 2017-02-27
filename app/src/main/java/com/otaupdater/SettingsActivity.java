@@ -158,7 +158,10 @@ public class SettingsActivity extends PreferenceActivity implements DialogCallba
         resetWarnPref = findPreference("resetwarn_pref");
         donatePref = findPreference("donate_pref");
 
-        bindService(new Intent("com.android.vending.billing.InAppBillingService.BIND"), serviceConn, Context.BIND_AUTO_CREATE);
+        Intent intent = new Intent("com.android.vending.billing.InAppBillingService.BIND");
+        intent.setPackage("com.android.vending");
+
+        bindService(intent, serviceConn, Context.BIND_AUTO_CREATE);
 
         if (EXTRA_SHOW_GET_PROKEY_DLG.equals(getIntent().getAction())) {
             showGetProKeyDialog();
