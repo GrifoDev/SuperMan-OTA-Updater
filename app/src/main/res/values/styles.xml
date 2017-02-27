@@ -26,6 +26,8 @@
         <item name="android:actionModeBackground">@drawable/cab_background_top_otauc</item>
         <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_otauc</item>
         <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Otauc</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
 
 
     </style>
